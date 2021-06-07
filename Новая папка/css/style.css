@@ -1,0 +1,25 @@
+@import "../fonts/Montserrat/stylesheet.css";
+:root {
+    --dark : #323232;
+    --gray : #999;
+    --blue : #4985FF;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html,body { font-family: "Montserrat", sans-serif; width: 100%; height: 100%; }
+a { color: inherit; text-decoration: none; }
+li { list-style: none; }
+
+.container { padding: 0 20px; width: 100%; max-width: 1110px; margin: auto; }
+.main_block { color: #FFF; min-height: 100vh; display: flex; flex-direction: column;
+    background: var(--dark) url(../img/main.jpg) no-repeat 50% 50% / cover;  }
+
+header { border-bottom: 1px solid rgba(161,161,161,.5); }
+nav ul { display: flex; justify-content: flex-end; }
+nav ul a { padding: 40px 20px; display: block; }
+.main { text-align: center; }
+.main { font-weight: 500; }
+.main h2 { margin: auto; max-width: 830px; font-size: 48px; font-weight: 800;
+    line-height: 1.333; padding: 20px 0 50px; }
+.btn { display: inline-flex; min-width: 200px; justify-content: center;
+    align-items: center; border-radius: 30px; background: var(--blue); color: #FFF;
+    padding: 0 36px; min-height: 45px; font-weight: 500; font-size: 16px; line-height: 1.25; }
